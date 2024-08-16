@@ -51,12 +51,12 @@ class RollingCurl
      * Set your base options that you want to be used with EVERY request. (Can be overridden individually)
      */
     protected $options = array(
-        CURLOPT_RETURNTRANSFER => 1,
-        CURLOPT_FOLLOWLOCATION => 1,
-        CURLOPT_MAXREDIRS      => 5,
-        CURLOPT_CONNECTTIMEOUT => 30,
-        CURLOPT_TIMEOUT        => 30,
-    );
+    CURLOPT_RETURNTRANSFER => 1,
+    CURLOPT_FOLLOWLOCATION => 1,
+    CURLOPT_MAXREDIRS      => 5,
+    CURLOPT_CONNECTTIMEOUT => 20,
+    CURLOPT_TIMEOUT        => 20,
+);
 
     /**
      * @var array
